@@ -44,10 +44,6 @@ public class OkHttpLoginTest {
                     + " " + errorDTO.getError());
 
             Assert.assertFalse(response.isSuccessful());
-
         }
-
     }
-
-
 }
